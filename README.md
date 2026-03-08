@@ -60,7 +60,6 @@ You can customize the app by:
 
 **Issue**: "Template not found" error
 **Solution**: Make sure `login.html` and `index.html` are in a `templates` folder
-**Password**: In case anything breaks, the password is: 6P2?z7~U6c`f
 
 **Issue**: WebSocket connection fails
 **Solution**: Check that all dependencies are installed correctly
