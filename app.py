@@ -50,7 +50,7 @@ def handle_message(data):
     if 'username' in session:
         message_data = {
             'username': session['username'],
-            'message': data['message'],
+            'message': data.get('message', ''),
             'timestamp': data.get('timestamp', '')
         }
         emit('receive_message', message_data, broadcast=True)
