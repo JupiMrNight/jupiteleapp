@@ -44,6 +44,9 @@ When a user types, other users see a "User is typing..." indicator.
 ### User Notifications
 The chat displays system messages when users join or leave the chat room.
 
+### Online view
+The chat room displays when users are online.
+
 ## Customization
 
 You can customize the app by:
@@ -57,6 +60,7 @@ You can customize the app by:
 
 **Issue**: "Template not found" error
 **Solution**: Make sure `login.html` and `index.html` are in a `templates` folder
+**Password**: In case anything breaks, the password is: 6P2?z7~U6c`f
 
 **Issue**: WebSocket connection fails
 **Solution**: Check that all dependencies are installed correctly
